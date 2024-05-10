@@ -18,4 +18,4 @@ def factorial(number):
         return 'El resultado es (' + str(result) + ')   Hecho por Luis Miguel'
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='35.192.102.192',port=80)
